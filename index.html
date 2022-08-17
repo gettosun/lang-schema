@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS-lang schema</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/rs-lang/rslang.md"><h1>RS Lang</h1></a>
+  <div class="adapters">
+    <ul class="block ui">user interface
+      <li class="item">main page + autorization</li>
+      <li class="item">dictionary</li>
+      <li class="item">game 'audio'</li>
+      <li class="item">game 'sprint'</li>
+      <li class="item">statistic</li>
+    </ul>
+    <ul class="block database-adapters">data adapters
+      <li class="item">create user</li>
+      <li class="item">autorization + token</li>
+      <li class="item">dictionary data</li>
+      <li class="item">user words(status)</li>
+      <li class="item">user statistic</li>
+    </ul>
+  </div>
+  <div class="scenarios">
+    <ul class="block user-scenario">user scenario
+      <li class="item">autorization</li>
+      <li class="item">dict. interaction</li>
+      <li class="item">games interaction</li>
+    </ul>
+    <ul class="block dictionary-scenario">dictionary scenario
+      <li class="item">words status</li>
+      <li class="item">pages status</li>
+    </ul>
+    <ul class="block games-scenario">games scenario
+      <li class="item">words progress</li>
+      <li class="item">chaging words status</li>
+    </ul>
+  </div>
+  <div class="domen">
+    <ul class="block user">user
+      <li class="item">create</li>
+      <li class="item">login</li>
+      <li class="item">progress</li>
+    </ul>
+    <ul class="block dictionary">dictionary
+      <li class="item">basic dict. data</li>
+      <li class="item">modifiers</li>
+    </ul>
+    <ul class="block games">games
+      <li class="item">audio</li>
+      <li class="item">sprint</li>
+    </ul>
+  </div>
+  <script src="block ./script.js"></script>
+</body>
+</html>

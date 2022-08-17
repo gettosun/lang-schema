@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: rgb(88, 88, 88);
+  color: white;
+  font-size: 1rem;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: aqua;
+}
+li {
+  text-align: center;
+}
+.block {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.item {
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+.domen {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border: 10px solid white;
+  border-bottom: 1px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: rgb(51, 29, 51);
+}
+.user {
+  transform: translateY(10px);
+}
+.scenarios {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55rem;
+  height: 23rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  border: 10px solid white;
+  border-bottom: 1px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  padding-top: 50px;
+  background: rgb(37, 33, 67);
+}
+.adapters {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 78rem;
+  height: 37rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 150px;
+  border: 10px solid white;
+  border-bottom: 1px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  padding-top: 50px;
+  background: rgb(34, 48, 77);
+}
+.user-scenario {
+  transform: translate(-20px, 70px);
+}
+.games-scenario {
+  transform: translate(20px, 70px);
+}
